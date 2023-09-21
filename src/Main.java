@@ -11,11 +11,11 @@ public class Main {
 
         System.out.println();
         System.out.println(" За 24 месяца");
-        System.out.println(service.calculate(1000,24,9.99 / 12 / 100) + " рублей");
+        System.out.println(service.calculate(1000000,24,9.99 / 12 / 100) + " рублей");
 
         System.out.println();
         System.out.println(" За 36 месяцев");
-        System.out.println(service.calculate(1000,36,9.99 / 12 / 100) + " рублей");
+        System.out.println(service.calculate(1000000,36,9.99 / 12 / 100) + " рублей");
 
 
     }
